@@ -199,11 +199,8 @@ form {
     transform: translateY(-4px) scale(1.05);
 }
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 729b9370fa7e0a328692d12da8ca246702f84ee5
 @media(max-width: 1200px) {
     h1 {
         font-size: 2.5rem;
