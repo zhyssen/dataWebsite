@@ -137,7 +137,9 @@ table {
 
 /* end of CSS reset */
 
-
+.navbar {
+    background: #005c99;
+}
 
 
 .main {
