@@ -137,6 +137,8 @@ table {
 
 /* end of CSS reset */
 
+
+
 .navbar {
     background: #005c99;
 }
@@ -146,7 +148,7 @@ table {
     width: 80%;
     height: 80%;
     margin-left: 10%;
-    margin-top: 10%;
+    margin-top: 8%;
     margin-bottom: 2%;
 }
 
@@ -187,7 +189,7 @@ form {
     background-color: white;
 }
 
-#join {
+#indexJoin {
     margin-top: 20%;
     transition: .25s;
     border: 2px groove #087fc9;
@@ -195,13 +197,47 @@ form {
     border-radius: 20px;
 }
 
-
-#join:hover {
+#indexJoin:hover {
     cursor: pointer;
     transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 0.5em 0.5em -0.4em #000;
 }
 
+#contactJoin {
+    margin-top: 20%;
+    transition: .25s;
+    border: 2px groove #087fc9;
+    color: white;
+    border-radius: 20px;
+}
 
+#contactJoin:hover {
+    cursor: pointer;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 0.5em 0.5em -0.4em #000;
+}
+
+#mainDiagram {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    box-shadow: 0 0.5em 0.5em -0.2em #000;
+}
+
+#contactJoin {
+    margin-top: 30px;
+}
+
+#contactH1 {
+    margin-top: 8rem;
+}
+
+#contactImg {
+    width: 60%;
+    margin-top: 100px;
+    margin-left: 20%;
+}
 
 @media(max-width: 1200px) {
     h1 {
@@ -214,7 +250,7 @@ form {
         font-size: 2.5rem;
     }
 
-    #join {
+    #IndexJoin {
         margin-top: 5%;
     }
 
@@ -237,5 +273,19 @@ form {
         /* height: 100%; */
         margin-top: 20%;
         margin-left: 0;
+    }
+
+    #mainDiagram {
+        width: 100%;
+        margin-left: 0%;
+        /* margin-bottom: 2rem;
+        margin-top: 2rem; */
+    }
+
+    #contactImg {
+        width: 100%;
+        margin-left: 0%;
+        /* margin-bottom: 2rem;
+        margin-top: 2rem; */
     }
 }
