@@ -24,7 +24,6 @@
         crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" href="contactForm.css">
 </head>
 
 <body>
@@ -68,7 +67,7 @@
 
     <img src="https://i.redd.it/80tp78s9cqoy.jpg" alt="main Image" id="contactImg">
 
-    <h1 class="display-4 text-center mt-3 mb-3">We Want to Hear From You!</h1>
+    <h1 class="display-4 text-center mt-3 mb-3" id="contactH1">We Want to Hear From You!</h1>
 
 
     <p>We would like your feedback on anything you like, don't like, could be improved, etc. What would make this
@@ -82,18 +81,18 @@
                     <div class="col-md-6">
                         <div class="mb-3 mt-3">
                             <label for="exampleInputName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="exampleInputName" placeholder="John Doe"
-                                required>
+                            <input type="text" name="name" class="form-control" id="exampleInputName"
+                                placeholder="John Doe" required>
                         </div>
                         <div class="mb-3 mt-3">
                             <label for="exampleInputEmail1" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp" placeholder="anyone@gmail.com" required>
                         </div>
                         <div class="mb-3 mt-3">
                             <label for="exampleInputPhone" class="form-label">Phone</label>
-                            <input type="phone" class="form-control" id="exampleInputPhone" aria-describedby="phoneHelp"
-                                placeholder="123 456 7890">
+                            <input type="phone" name="phone" class="form-control" id="exampleInputPhone"
+                                aria-describedby="phoneHelp" placeholder="123 456 7890">
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -104,7 +103,7 @@
                                     placeholder="Enter your message here"></textarea>
                             </div>
                             <div class="col-4"></div>
-                            <button id="join" type="submit" class="btn btn-lg col-4"
+                            <button id="contactJoin" type="submit" class="btn btn-lg col-4"
                                 style="background-color:#087fc9;">Submit</button>
                             <div class="col-4"></div>
                         </div>
