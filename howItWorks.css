@@ -138,13 +138,13 @@ table {
 
 /* end of CSS reset */
 
-.questions {
-    float: right;
-    width: 50%;
+.question p {
+    text-align: justify;
 }
 
-.hands img {
-    
+.side {
+    float: right;
+    max-width: 100%;
 }
 
 
